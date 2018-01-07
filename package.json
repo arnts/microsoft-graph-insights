@@ -1,14 +1,16 @@
 {
-  "name": "office365-graph-nodejs",
+  "name": "microsoft-graph-insights",
   "version": "1.0.0",
-  "description": "A simple Node.js demo that uses the Microsoft Graph API",
+  "description": "A simple Node.js demo app that uses the Microsoft Graph API",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "keywords": [
+    "office",
     "outlook",
-    "msgraph"
+    "msgraph",
+    "microsoft-graph"
   ],
   "dependencies": {
     "@microsoft/microsoft-graph-client": "^1.0.0",
