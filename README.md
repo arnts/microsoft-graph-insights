@@ -21,7 +21,7 @@ Note: In order to use the Application Registration Portal, you need either an Of
 
 ## 2. Configure the app env
 
-Set environment variables using set or export (replace with values from the Application Registration Portal:
+Set environment variables using set or export (replace with values from the Application Registration Portal):
 
 ```bash
 export APP_ID='YOUR APP ID HERE'
