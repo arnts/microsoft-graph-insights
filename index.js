@@ -138,7 +138,7 @@ function getLastUsed(response, request) {
             .then((res) => {
                 console.log('lastused returned ' + res.value.length + ' files');
                 console.log('lastused returned ' + JSON.stringify(res.value));
-                response.write('<table><tr><th>title</th><th>last accessed</th><th>last modified</th></tr>');
+                response.write('<table><tr><th>title</th><th>type</th><th>last accessed</th><th>last modified</th></tr>');
                 res.value.forEach(function (file) {
                     console.log('  Id: ' + file.id);
                     response.write('<tr><td>' + file.resourceVisualization.title +
